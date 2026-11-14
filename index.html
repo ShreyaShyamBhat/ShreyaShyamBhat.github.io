@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shreya Bhat’s full-stack engineering portfolio, featuring work in React, Java, search, and event-driven systems.">
+  <title>Shreya Bhat | Full-Stack Software Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="portfolio.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <main id="main" class="wrap">
+    <section class="hero" aria-labelledby="name">
+      <div>
+        <h1 id="name">Shreya Bhat</h1>
+        <p class="role hero-tagline">Full-Stack Software Engineer</p>
+        <p class="intro">I build Java services, React interfaces, and applications that make complex data easier to search and use.</p>
+      </div>
+      <figure class="portrait"><img src="portrait.png" alt="Shreya Bhat" width="800" height="800"></figure>
+    </section>
+    <details id="projects" class="section">
+      <summary>
+        <span class="section-title">Projects</span>
+        <span class="section-tagline">Click to see a few of my works</span>
+        <span class="chevron" aria-hidden="true"></span>
+      </summary>
+      <div class="gallery" id="gallery"></div>
+    </details>
+    <details id="skills" class="section">
+      <summary>
+        <span class="section-title">Skills</span>
+        <span class="section-tagline">Click to find out what I know</span>
+        <span class="chevron" aria-hidden="true"></span>
+      </summary>
+      <div class="filters" role="group" aria-label="Filter skills"></div>
+      <p class="sr-only" id="skill-status" aria-live="polite"></p>
+      <div class="skill-tables" id="skill-tables"></div>
+    </details>
+    <details id="contact" class="section">
+      <summary>
+        <span class="section-title">Let’s talk</span>
+        <span class="section-tagline">Click to find me</span>
+        <span class="chevron" aria-hidden="true"></span>
+      </summary>
+      <ul class="contact-links">
+        <li><a href="mailto:shreyashyambhat@gmail.com">shreyashyambhat@gmail.com</a></li>
+        <li><a href="https://linkedin.com/in/shreya-bhat-swe">LinkedIn <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://github.com/ShreyaShyamBhat">GitHub <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </details>
+  </main>
+  <footer class="wrap"><a href="#top">Back to top ↑</a></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title">
+    <form method="dialog" class="dialog-toolbar"><button autofocus aria-label="Close project details">×</button></form>
+    <div class="dialog-content">
+      <p class="role" id="dialog-type"></p>
+      <h2 id="dialog-title"></h2>
+      <div class="tags" id="dialog-stack"></div>
+      <div id="dialog-details"></div>
+      <div id="dialog-media"></div>
+    </div>
+  </dialog>
+</body>
+</html>
